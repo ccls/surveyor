@@ -4,3 +4,4 @@ coverage
 rdoc
 pkg
 surveys/fixtures/*.yml
+versions
