@@ -130,8 +130,7 @@ Gem::Specification.new do |s|
     "generators/test_surveyor/templates/TESTING_SURVEYOR",
     "generators/test_surveyor/templates/environments/cucumber.rb",
     "generators/test_surveyor/test_surveyor_generator.rb",
-    "init.rb",
-    "install.rb",
+    "jakewendt-surveyor.gemspec",
     "lib/fixtures_extensions.rb",
     "lib/surveyor.rb",
     "lib/surveyor/acts_as_response.rb",
@@ -173,9 +172,7 @@ Gem::Specification.new do |s|
     "spec/models/validation_spec.rb",
     "spec/rcov.opts",
     "spec/spec.opts",
-    "spec/spec_helper.rb",
-    "surveyor.gemspec",
-    "uninstall.rb"
+    "spec/spec_helper.rb"
   ]
   s.homepage = %q{http://github.com/jakewendt/surveyor}
   s.require_paths = ["lib"]
