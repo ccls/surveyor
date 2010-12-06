@@ -33,6 +33,12 @@ end
   # $LOAD_PATH << path # already here
   # ActiveSupport::Dependencies.load_paths << path # already here too
 #  ActiveSupport::Dependencies.load_once_paths.delete(path)
-  ActiveSupport::Dependencies.autoload_once_paths.delete(path)
+#  ActiveSupport::Dependencies.autoload_once_paths.delete(path)
   # [$LOAD_PATH, ActiveSupport::Dependencies.load_paths, ActiveSupport::Dependencies.load_once_paths].each{|x| Rails.logger.info x}
+
+
+	ActiveSupport::Dependencies.autoload_paths << path
+	ActiveSupport::Dependencies.autoload_once_paths << path
 end
+
+require 'surveyor/config'
