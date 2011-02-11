@@ -4,13 +4,13 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name = %q{jakewendt-surveyor}
-  s.version = "0.11.3"
+  s.name = %q{ccls-surveyor}
+  s.version = "1.0.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Brian Chamberlain", "Mark Yoon", "Jake Wendt"]
-  s.date = %q{2011-02-08}
-  s.email = %q{github@jake.otherinbox.com}
+  s.date = %q{2011-02-11}
+  s.email = %q{github@jakewendt.com}
   s.extra_rdoc_files = [
     "README.md"
   ]
@@ -40,6 +40,7 @@ Gem::Specification.new do |s|
     "app/views/surveyor/edit.html.haml",
     "app/views/surveyor/new.html.haml",
     "app/views/surveyor/show.html.haml",
+    "ccls-surveyor.gemspec",
     "config/routes.rb",
     "features/step_definitions/surveyor_steps.rb",
     "features/step_definitions/web_steps.rb",
@@ -130,9 +131,8 @@ Gem::Specification.new do |s|
     "generators/test_surveyor/templates/TESTING_SURVEYOR",
     "generators/test_surveyor/templates/environments/cucumber.rb",
     "generators/test_surveyor/test_surveyor_generator.rb",
-    "jakewendt-surveyor.gemspec",
+    "lib/ccls-surveyor.rb",
     "lib/fixtures_extensions.rb",
-    "lib/jakewendt-surveyor.rb",
     "lib/surveyor.rb",
     "lib/surveyor/acts_as_response.rb",
     "lib/surveyor/config.rb",
@@ -175,7 +175,7 @@ Gem::Specification.new do |s|
     "spec/spec.opts",
     "spec/spec_helper.rb"
   ]
-  s.homepage = %q{http://github.com/jakewendt/surveyor}
+  s.homepage = %q{http://github.com/ccls/surveyor}
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.5.0}
   s.summary = %q{A rails (gem) plugin to enable surveys in your application}

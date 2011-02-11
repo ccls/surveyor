@@ -4,10 +4,10 @@ require 'rake'
 begin
 	require 'jeweler'
 	Jeweler::Tasks.new do |gem|
-		gem.name = "jakewendt-surveyor"
+		gem.name = "ccls-surveyor"
 		gem.summary = %Q{A rails (gem) plugin to enable surveys in your application}
-		gem.email = "github@jake.otherinbox.com"
-		gem.homepage = "http://github.com/jakewendt/surveyor"
+		gem.email = "github@jakewendt.com"
+		gem.homepage = "http://github.com/ccls/surveyor"
 		gem.authors = ["Brian Chamberlain", "Mark Yoon",'Jake Wendt']
 		gem.add_dependency 'haml'
 		# gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
